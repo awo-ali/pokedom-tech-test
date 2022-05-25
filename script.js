@@ -23,44 +23,9 @@ const addCards = (event) => {
     })
 }
 
-console.log(addCards);
 
-
-const filteredArrays = addCards.filter (addCards =>{
-    
-        if (inputSearch = `${pokemonArray.name}`) {
-         container.innerHTML += `${pokemonArray.name}`; 
-        
-    }
-})
-
-console.log(filteredArrays);
-
-
-
-/*const filteredArrays = addCards.filter (addCards =>{
-    addCards.forEach(addCard => {
-    if (inputSearch = `${pokemonArray.name}`) {
-        container.innerHTML = `${pokemonArray.name}`;   
-    } 
-    else if (inputSearch = `${pokemonArray.types[0]} || ${pokemonArray.types[1]}`){
-        container.innerHTML = `${pokemonArray.types[0]} || ${pokemonArray.types[1]}`;
-    }
-    else if (inputSearch = `${pokemonArray.id}`){
-        container.innerHTML = `${pokemonArray.id}`; 
-    } 
-    
-    })*/
-
-  
-   // const filteredArrays = addCards.pokemanArray.filter (addCard => {
-     //   if (inputSearch.innerHTML = `${pokemonArray.name}`) {
-      //      container.innerHTML = addCard;
-      //  }
-   // })
 
 // Return functions
 
 
 button.addEventListener("click", addCards)
-inputSearch.addEventListener("input", filteredArrays)
