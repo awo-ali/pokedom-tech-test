@@ -45,3 +45,14 @@ body {
 .card-container .card .card__content .card__text {
   color: #747a8e;
 }
+
+.clickButton{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(232, 3, 3);
+  
+}
